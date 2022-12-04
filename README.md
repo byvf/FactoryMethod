@@ -1,7 +1,11 @@
 # FactoryMethod
 Factory Method  (Examples)
 
-// Used
+## Simple Example 
+### Code Implementation
+First:
+Need to create struct uses @IntValue
+``` swift
 enum FactoryMethod {
     static func create(for productType: ProductType) -> Product {
         switch productType {
@@ -10,3 +14,4 @@ enum FactoryMethod {
         }
     }
 }
+```
